@@ -49,4 +49,4 @@ const stations = converted.features.map(v => {
 });
 
 const allStations = stations.concat(extraStations);
-console.log(allStations);
+console.log(JSON.stringify(allStations));
