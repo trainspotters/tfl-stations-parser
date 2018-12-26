@@ -1,0 +1,13 @@
+{
+  "name": "tfl-stations-parser",
+  "version": "1.0.0",
+  "description": "From TFL's stations.kml to a JSON",
+  "main": "index.js",
+  "repository": "git@github.com:trainspotters/tfl-stations-parser.git",
+  "author": "vjo",
+  "license": "MIT",
+  "dependencies": {
+    "@mapbox/togeojson": "^0.16.0",
+    "commander": "^2.19.0"
+  }
+}
